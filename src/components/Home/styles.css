@@ -1,0 +1,95 @@
+.header {
+    background-color: var(--BlueKenzie);
+    height: 75px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--White);
+}
+
+.header img {
+    height: 50px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.span {
+    font-size: 2.2rem;
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -3rem;
+    margin-left: 50rem;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 0.4rem;
+    width: 7rem;
+    text-align: center;
+    border-radius: 5%;
+    color: var(--White)
+}
+
+.links a:nth-child(1) {
+    background-color: #0095F6;
+    width: 12rem;
+}
+
+.links a:hover {
+    border-bottom: 2px solid #0095f6;
+}
+
+.kenzie-home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #111111;
+    height: 90vh;
+}
+
+.kenzie-home img {
+    margin-top: 5rem;
+    height: 35rem;
+}
+
+.kenzie-home2 {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 56px;
+}
+
+.title h1:nth-child(1) {
+    color: #0095F6;
+}
+
+.title h1:nth-child(2) {
+    color: aliceblue;
+}
+
+.title h1:nth-child(3) {
+    color: #1EC5C5;
+}
+
+.title img {
+    height: 7rem;
+}
+
+.kenzie-home2 h2 {
+    background-color: #eee;
+}

@@ -1,0 +1,40 @@
+.container-devs {
+    display: flex;
+}
+
+.container-devs img {
+    height: 7rem;
+    border-radius: 100%;
+}
+
+.devs {
+    background-color: #231e39;
+    box-shadow: 0 10px 20px -10px rgb(0 0 0 / 75%);
+    overflow: hidden;
+    width: 15rem;
+    margin: 1rem;
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 2rem;
+    color: var(--White);
+}
+
+.container-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-botoes {
+    text-align: center;
+    display: block;
+    margin: 1rem;
+}
+
+.container-botoes button {
+    margin-left: 1rem;
+}
+
+.container-all-items {
+    background-color: rgb(229, 229, 238);
+}

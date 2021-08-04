@@ -1,0 +1,25 @@
+.container-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.container-imgs img:nth-child(2) {
+    height: 25rem;
+    margin: 1rem;
+}
+
+.container-ctd {
+    background-color: #111111;
+    margin-top: 0.5rem;
+    height: 5rem;
+    text-align: center;
+    color: var(--White);
+    padding: 0.5rem;
+    letter-spacing: 2px;
+}
+
+strong {
+    color: #03bfcb;
+}
